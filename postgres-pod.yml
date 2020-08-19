@@ -6,12 +6,12 @@ matadata:
   name: postgres-pod
   labels:
     name: postgres-pod
-	app: demo-voting-app
+      app: demo-voting-app
 	
 	
 spec:
   containers: 
     name: postgres
-	image: postgres9.4
+      image: postgres9.4
 	ports:
 	  containerPort: 5432
